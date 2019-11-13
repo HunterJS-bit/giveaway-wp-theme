@@ -1,0 +1,328 @@
+/*!
+Theme Name: nagrada
+Theme URI: http://underscores.me/
+Author: Underscores.me
+Author URI: http://underscores.me/
+Description: Description
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: nagrada
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+*/
+
+
+/* Text meant only for screen readers. */
+
+.screen-reader-text {
+    border: 0;
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute !important;
+    width: 1px;
+    word-wrap: normal !important;
+    /* Many screen reader and browser combinations announce broken words as they would appear visually. */
+}
+
+.screen-reader-text:focus {
+    background-color: #f1f1f1;
+    border-radius: 3px;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+    clip: auto !important;
+    clip-path: none;
+    color: #21759b;
+    display: block;
+    font-size: 14px;
+    font-size: 0.875rem;
+    font-weight: bold;
+    height: auto;
+    left: 5px;
+    line-height: normal;
+    padding: 15px 23px 14px;
+    text-decoration: none;
+    top: 5px;
+    width: auto;
+    z-index: 100000;
+    /* Above WP toolbar. */
+}
+
+.post-navigation {
+    @apply w-full font-sans px-4 py-12
+}
+
+.nav-links {
+    @apply font-sans flex justify-between content-center px-4 pb-12
+}
+
+.widget {
+    @apply overflow-hidden shadow-lg border-t-4 bg-white mb-4 rounded-b-lg rounded-t px-6 py-4 mb-2 mt-4 mb-8
+}
+
+.widget {
+    border-color: #fbd38d;
+}
+
+.widget ul li {
+    @apply flex cursor-pointer border px-4 py-2 text-lg border-b-0
+}
+
+.widget ul li:last-child {
+    border-width: 1px;
+}
+
+h2.widget-title {
+    @apply uppercase tracking-wide mb-4
+}
+
+
+/*** Single Post ****/
+
+.wrapper {
+    display: flex;
+}
+
+
+
+/******* Commentss *******/
+
+#comments {
+    @apply bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4 max-w-4xl
+}
+
+#commentform label {
+    @apply block text-gray-500 font-bold mb-1 pr-4
+}
+
+#commentform input,
+#commentform textarea {
+    @apply bg-gray-200 appearance-none border-2 border-gray-200 rounded py-2 px-4 text-gray-700 leading-tight w-full
+}
+
+p.comment-form-comment {
+    @apply mt-5
+}
+
+[hidden] {
+    display: none;
+}
+
+#commentform #submit {
+    @apply shadow bg-blue-500 text-white font-bold py-2 mt-4 px-4 rounded border-none max-w-xs
+}
+
+p.comment-form-cookies-consent,
+.comment-notes {
+    display: none;
+}
+
+.comment-list article.comment-body {
+    @apply border-2 border-gray-200 mb-3 p-2
+}
+
+.comment-list .reply {
+    @apply border-2 bg-blue-100 border-2 mt-2 px-5 py-1 text-gray-600 uppercase w-2/12 cursor-pointer
+}
+
+h2.comments-title {
+    @apply text-2xl mb-2
+}
+
+
+/******* Post Navigation ***********/
+
+.nav-links {
+    @apply flex flex-wrap
+}
+
+.page-nav-container {
+    @apply flex justify-center items-center
+}
+
+.page-nav-container .page-numbers {
+    @apply border border-gray-300 px-3 py-2 text-gray-500 cursor-pointer
+}
+
+.page-nav-container span.current.page-numbers {
+    @apply bg-blue-500 text-white
+}
+
+.nav-links .nav-previous,
+.nav-links .nav-next {
+    @apply border border-blue-500 text-blue-500 block rounded-sm font-bold py-4 px-6 mr-2 flex items-center text-xs max-w-sm
+}
+
+.nav-links .nav-previous {
+    @apply mb-5
+}
+
+.nav-links .nav-previous,
+.nav-links .nav-next {
+    letter-spacing: 2px;
+    font-weight: 300;
+}
+
+
+/************ Post **********/
+
+ul.related-posts-list {
+    display: flex;
+}
+
+ul.related-posts-list li {
+    @apply mr-10
+}
+
+.nav-previous::before {
+    content: '\25c4';
+    padding-right: 0.5em;
+}
+
+.nav-next::after {
+    content: '\25ba';
+    padding-left: 0.5em;
+}
+
+
+/****** Comments *****/
+
+#comments {
+    @apply w-9/12
+}
+
+#reply-title {
+    @apply block text-gray-700 font-bold mb-2
+}
+
+.reply {
+    @apply block text-gray-700 font-bold mb-2
+}
+
+
+/****** Categoryy **************/
+
+.recent-posts li.recent-post {
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-width: 320px;
+}
+
+.recent-posts li.recent-post::after {
+    content: ""; // ::before and ::after both require content
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: .7;
+}
+
+.recent-posts li.recent-post h4 {
+    width: 100%;
+    bottom: 0px;
+    color: #fff;
+    position: absolute;
+    letter-spacing: -1px;
+    background: rgba(0, 0, 0, .7);
+    padding: 10px;
+    z-index: 9;
+}
+
+html {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+html body {
+    font-family: 'Fira Sans', sans-serif; 
+}
+.fira {
+    font-family: 'Fira Sans', sans-serif; 
+}
+
+.cardo {
+    font-family: 'Cardo', serif;
+}
+/*** Post article ***/
+
+#posttext h2 {
+    font-size: 2.25rem;
+    font-weight: 700;
+    color: #22292f;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+#posttext h3 {
+    font-size: 1.875rem;
+    font-weight: 700;
+    color: #22292f;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+#posttext  h4 {
+    font-weight: 700;
+    color: #22292f;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+}
+#posttext p {
+    margin-bottom: 1rem;
+    @apply text-lg text-gray-700 leading-normal
+}
+
+#posttext ul, #posttext ol {
+    margin-bottom: 1.5rem;
+}
+
+#posttext ul li {
+    list-style-type: disc;
+    padding-left: 1rem;
+    @apply leading-normal
+}
+
+#posttext strong {
+    font-weight: bolder;
+}
+
+#posttext a {
+    color: #fff;
+}
+
+.post-meta a.mark {
+    @apply bg-blue-500 mx-auto rounded-lg inline-block px-5 py-2 text-white text-lg cursor-pointer font-semibold shadow-xl
+}
+
+#posttext blockquote {
+    border-left-width: 4px;
+    border-color: #e2e8f0;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    font-style: italic;
+}
+
+.gradient {
+    background-color: #0c0c0c;
+    background-image: linear-gradient(19deg, #6c62ff, #3f3d56);
+}
+
+/***** HEADER ********/
+
+@media only screen and (max-width: 620px) {
+    #primary-menu > li.menu-item {
+        @apply mb-3
+    }
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
