@@ -67,7 +67,7 @@
 						<p class="uppercase text-white md:mb-4 font-bold text-sm">Legal</p>
 						<ul>
 							<li class="mt-2 inline-block mr-2 md:block md:mr-0">
-								<a href="/terms-of-service" class="no-underline hover:underline text-orange-200 opacity-90 hover:opacity-100 text-sm">Uslovi korišćenja</a>
+								<a href="/uslovi-koriscenja" class="no-underline hover:underline text-orange-200 opacity-90 hover:opacity-100 text-sm">Uslovi korišćenja</a>
 							</li>
 							<li class="mt-2 inline-block mr-2 md:block md:mr-0">
 								<a href="/privacy-policy" class="no-underline hover:underline text-orange-200 opacity-90 hover:opacity-100 text-sm">Politika privatnosti</a>
