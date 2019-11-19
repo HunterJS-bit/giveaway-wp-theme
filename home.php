@@ -2,8 +2,7 @@
 <?php get_header() ?>
 <section class="container mx-auto px-6 p-10">
 <div class="container mx-auto blog flex flex-wrap justify-between">
-
-          <div class="md:w-8/12 mb-10">
+  <div class="mb-10">
             <nav class="bg-grey-light p-3 rounded font-sans w-full">
                  <h2><a href="/" class="font-bold text-3xl text-gray-800">Blog</a></h2>       
             </nav>
@@ -38,10 +37,6 @@
                   <!-- Content If No Posts -->
               <?php endif ?>
           </div>
-          <ul class="recent-posts max-w-xs">
-            <h3 class="font-bold mb-3 text-3xl text-gray-800 tracking-wide"> Poslednje Dodato <h3>
-            <?php echo delicious_recent_posts(); ?>
-          </ul>
     </div>
 
 </section>
