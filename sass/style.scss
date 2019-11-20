@@ -134,37 +134,14 @@ h2.comments-title {
 
 /******* Post Navigation ***********/
 
-.nav-links {
-    @apply flex flex-wrap
+.pagination .page-numbers {
+    @apply m-2 px-2 py-2
 }
 
-.page-nav-container {
-    @apply flex justify-center items-center
-}
 
-.page-nav-container .page-numbers {
-    @apply border border-gray-300 px-3 py-2 text-gray-500 cursor-pointer
+.pagination .next {
+    @apply cardo 
 }
-
-.page-nav-container span.current.page-numbers {
-    @apply bg-blue-500 text-white
-}
-
-.nav-links .nav-previous,
-.nav-links .nav-next {
-    @apply border border-blue-500 text-blue-500 block rounded-sm font-bold py-4 px-6 mr-2 flex items-center text-xs max-w-sm
-}
-
-.nav-links .nav-previous {
-    @apply mb-5
-}
-
-.nav-links .nav-previous,
-.nav-links .nav-next {
-    letter-spacing: 2px;
-    font-weight: 300;
-}
-
 
 /************ Post **********/
 
