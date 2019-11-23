@@ -270,10 +270,10 @@ html body {
 }
 
 #posttext a {
-    color: #fff;
+    @apply text-indigo-800 font-bold
 }
 
-.post-meta a.mark {
+#posttext .post-meta a.mark {
     @apply bg-blue-500 mx-auto rounded-lg inline-block px-5 py-2 text-white text-lg cursor-pointer font-semibold shadow-xl
 }
 
@@ -298,6 +298,18 @@ html body {
     #primary-menu > li.menu-item {
         @apply mb-3
     }
+}
+
+.about-pages .title{
+    padding-bottom: .3em;
+    font-size: 2em;
+    font-weight: 700;
+    margin-top: 1rem;
+    border-bottom: 1px solid #eaecef;
+}
+
+.about-pages .content-container p {
+    @apply mb-2
 }
 
 @tailwind base;

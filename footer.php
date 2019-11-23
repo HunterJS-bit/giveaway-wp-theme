@@ -58,7 +58,7 @@
 						<p class="uppercase text-white md:mb-4 font-bold text-sm">Linkovi</p>
 						<ul>
 							<li class="mt-2 inline-block mr-2 md:block md:mr-0">
-								<a href="#" class="no-underline hover:underline text-orange-200 opacity-90 hover:opacity-100 text-sm">
+								<a href="/blog" class="no-underline hover:underline text-orange-200 opacity-90 hover:opacity-100 text-sm">
                                 Blog</a>
 							</li>
 						</ul>
@@ -86,7 +86,7 @@
 						</ul>
 					</div>
 					<div class="flex-1 mb-6 px-4">
-						<p class="uppercase text-white md:mb-4 font-bold text-sm">Company</p>
+						<p class="uppercase text-white md:mb-4 font-bold text-sm">Firma</p>
 						<ul>
 							<li class="mt-2 inline-block mr-2 md:block md:mr-0">
 								<a href="#" class="no-underline hover:underline text-orange-200 opacity-90 hover:opacity-100 text-sm">O Nama</a>
