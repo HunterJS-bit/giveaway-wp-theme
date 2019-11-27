@@ -12,7 +12,7 @@
     <div class="flex flex-col items-center post">
         <div class="text-center pt-5">
             <?php $featured_img_url = get_the_post_thumbnail_url(get_the_ID(),'full'); 
-                echo '<a href="'.esc_url($featured_img_url).'" rel="lightbox">'; 
+                echo '<a href="'.esc_url($featured_img_url).'" class="flex justify-center" rel="lightbox">'; 
                 the_post_thumbnail('full');
                 echo '</a>';
             ?>
