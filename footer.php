@@ -70,12 +70,12 @@
 								<a href="/uslovi-koriscenja" class="no-underline hover:underline text-orange-200 opacity-90 hover:opacity-100 text-sm">Uslovi korišćenja</a>
 							</li>
 							<li class="mt-2 inline-block mr-2 md:block md:mr-0">
-								<a href="/privacy-policy" class="no-underline hover:underline text-orange-200 opacity-90 hover:opacity-100 text-sm">Politika privatnosti</a>
+								<a href="/faq" class="no-underline hover:underline text-orange-200 opacity-90 hover:opacity-100 text-sm">FAQ</a>
 							</li>
 						</ul>
 					</div>
 					<div class="flex-1 mb-6 px-4">
-						<p class="uppercase text-white md:mb-4 font-bold text-sm">Social</p>
+						<p class="uppercase text-white md:mb-4 font-bold text-sm">Drustvene mreze</p>
 						<ul>
 							<li class="mt-2 inline-block mr-2 md:block md:mr-0">
 								<a href="#" target="_blank" class="no-underline hover:underline text-orange-200 opacity-90 hover:opacity-100 text-sm">Facebook</a>
@@ -86,13 +86,13 @@
 						</ul>
 					</div>
 					<div class="flex-1 mb-6 px-4">
-						<p class="uppercase text-white md:mb-4 font-bold text-sm">Firma</p>
+						<p class="uppercase text-white md:mb-4 font-bold text-sm">Nagradne Igre</p>
 						<ul>
 							<li class="mt-2 inline-block mr-2 md:block md:mr-0">
 								<a href="#" class="no-underline hover:underline text-orange-200 opacity-90 hover:opacity-100 text-sm">O Nama</a>
 							</li>
 							<li class="mt-2 inline-block mr-2 md:block md:mr-0">
-								<a href="#"  class="no-underline hover:underline text-orange-200 opacity-90 hover:opacity-100 text-sm">Kontakt</a>
+								<a href="/contact"  class="no-underline hover:underline text-orange-200 opacity-90 hover:opacity-100 text-sm">Kontakt</a>
 							</li>
 						</ul>
 					</div>

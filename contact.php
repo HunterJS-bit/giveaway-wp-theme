@@ -2,19 +2,19 @@
 
 <?php get_header() ?>
 
-<main class="container h-full m-0 mx-auto mb-20 px-4">
-    <article>
+<main class="container mx-auto px-4 sm:px-5 mt-1">
+    <article class="mt-10">
      <div class="contact-title pb-8 px-2">
-        <h1 class="font-semibold uppercase text-2xl lg:text-3xl mt-12 md:mt-24 text-center pb-5">Kontaktirajte nas<span class="mx-auto w-24 h-1 block mt-1 border-b-2 border-blue-400"></span></h1>
-        <p class="w-full md:w-1/2 mx-auto text-center mb-2 mb-12">Kontaktirajte nas za sve dodatne informacije koje vas mogu zanimati. Pratite nas i očekujte informacije o novim akcijama i promo ponudama</p>
+        <h1 class="text-gray-800 text-xl sm:text-3xl md:text-5xl mt-1 text-left sm:text-center font-bold mx-6 sm:mx-0 text-center">Kontaktirajte nas<span class="mx-auto w-24 h-1 block border-b-2 border-blue-400"></span></h1>
+        <p class="w-full md:w-1/2 mx-auto text-center my-2 mb-12">Kontaktirajte nas za sve dodatne informacije koje vas mogu zanimati. Pratite nas i očekujte informacije o novim akcijama i promo ponudama</p>
      </div>
     <div class="flex flex-wrap mb-4">
         <div class="w-full md:w-1/3 text-center p-4">
-            <h2 class="font-semibold uppercase text-1xl lg:text-2xl text-center pb-5">Posaljite nam Email<span class="mx-auto w-24 h-1 block mt-1 border-b-2 border-blue-400"></span></h2>
-            <p>Kontaktirajte nas putem email-a uvek Vam stojimo na raspolaganju i na Vaš email ćemo odgovoriti u roku od 24 sata.<a href="mailto:hello@arctica.io">nagradneigre@gmail.com</a></p>
+            <h2 class="font-semibold uppercase text-1xl lg:text-2xl text-center pb-5 text-gray-800">Posaljite nam Email<span class="mx-auto w-24 h-1 block mt-1 border-b-2 border-blue-400"></span></h2>
+            <p>Kontaktirajte nas putem email-a uvek Vam stojimo na raspolaganju i na Vaš email ćemo odgovoriti u roku od 24 sata: <a href="mailto:hello@arctica.io"> nagradneigre@gmail.com</a></p>
         </div>
         <div class="w-full md:w-1/3 text-center p-4">
-            <h2 class="font-semibold uppercase text-1xl lg:text-2xl text-center pb-5">Gde se nalazimo<span class="mx-auto w-24 h-1 block mt-1 border-b-2 border-blue-400"></span></h2>
+            <h2 class="font-semibold text-gray-800 uppercase text-1xl lg:text-2xl text-center pb-5">Gde se nalazimo<span class="mx-auto w-24 h-1 block mt-1 border-b-2 border-blue-400"></span></h2>
             <p>Da nas lakše nađete :)</p>
             <p class="mt-6">Arctica,
                 <br> 86-90 Paul Street,
@@ -23,7 +23,7 @@
                 <br>EC2A 4NE</p>
         </div>
         <div class="w-full md:w-1/3 text-center p-4">
-        <h2 class="font-semibold uppercase text-1xl lg:text-2xl text-center pb-5">Pratite nas<span class="mx-auto w-24 h-1 block mt-1 border-b-2 border-blue-400"></span></h2>
+        <h2 class="font-semibold uppercase text-1xl lg:text-2xl text-center pb-5 text-gray-800">Pratite nas<span class="mx-auto w-24 h-1 block mt-1 border-b-2 border-blue-400"></span></h2>
             <ul class="flex justify-center">
                 <li class="opacity-30 hover:opacity-100 mr-2">
                     <a style="color:#1da1f2" href="https://twitter.com/arcticahq" target="_blank" rel="noopener noreferrer" aria-label="Twitter on Twitter">
