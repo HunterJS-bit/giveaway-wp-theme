@@ -87,19 +87,28 @@ h2.widget-title {
 
 
 
-/******* Commentss *******/
+/******* Comment *******/
 
 #comments {
-    @apply bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4 max-w-4xl
+    @apply px-16
+}
+
+#commentform {
+    @apply relative bg-white rounded-lg p-6 text-black shadow-lg mb-10 max-w-4xl
 }
 
 #commentform label {
-    @apply block text-gray-500 font-bold mb-1 pr-4
+    @apply block uppercase tracking-wide text-black text-xs font-bold pb-2
 }
 
-#commentform input,
 #commentform textarea {
-    @apply bg-gray-200 appearance-none border-2 border-gray-200 rounded py-2 px-4 text-gray-700 leading-tight w-full
+    min-height: 223px;
+    @apply appearance-none h-20 mt-2 block w-full bg-gray-100 text-gray-800 border rounded-lg py-3 px-3 mb-3 leading-tight
+    
+}
+
+#commentform .form-submit {
+    text-align: right;
 }
 
 p.comment-form-comment {
@@ -111,7 +120,7 @@ p.comment-form-comment {
 }
 
 #commentform #submit {
-    @apply shadow bg-blue-500 text-white font-bold py-2 mt-4 px-4 rounded border-none max-w-xs
+    @apply inline-block text-black text-xs py-3 px-4 rounded-full font-semibold uppercase cursor-pointer bg-indigo-600 text-white relative
 }
 
 p.comment-form-cookies-consent,
@@ -120,15 +129,31 @@ p.comment-form-cookies-consent,
 }
 
 .comment-list article.comment-body {
-    @apply border-2 border-gray-200 mb-3 p-2
+    margin-bottom: 1rem;
+    padding: 0.7rem 1.5rem;
+    @apply border-gray-200 
 }
 
 .comment-list .reply {
-    @apply border-2 bg-blue-100 border-2 mt-2 px-5 py-1 text-gray-600 uppercase w-2/12 cursor-pointer
+    border-radius: 9999px;
+    color: #fbfbfb;
+    background: #757fd8;
+    display: inline-block;
+    font-size: 0.70rem;
+    @apply mt-3 px-6 py-2 uppercase cursor-pointer
 }
 
 h2.comments-title {
     @apply text-2xl mb-2
+}
+
+
+#reply-title {
+    @apply font-semibold uppercase text-xl text-left pb-5
+}
+
+.reply {
+    @apply block font-bold mb-2
 }
 
 
@@ -163,20 +188,6 @@ ul.related-posts-list li {
     padding-left: 0.5em;
 }
 
-
-/****** Comments *****/
-
-#comments {
-    @apply w-9/12
-}
-
-#reply-title {
-    @apply block text-gray-700 font-bold mb-2
-}
-
-.reply {
-    @apply block text-gray-700 font-bold mb-2
-}
 
 
 /****** Categoryy **************/

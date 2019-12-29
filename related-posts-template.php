@@ -1,6 +1,6 @@
 <?php if (!empty($related_posts)) { ?>
     <div class="related-posts border-t-2 border-gray-200 pt-5 pb-5">
-        <div class="container mx-auto px-6">
+        <div class="container mx-auto px-16">
             <h3 class="font-bold mb-3 text-3xl text-gray-800 tracking-wide"><?php _e('Povezani članci', 'wpcrumbs'); ?></h3>
 
             <ul class="related-posts-list w-full flex flex-wrap mt-5">
