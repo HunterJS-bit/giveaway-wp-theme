@@ -89,7 +89,7 @@
 						<p class="uppercase text-white md:mb-4 font-bold text-sm">Nagradne Igre</p>
 						<ul>
 							<li class="mt-2 inline-block mr-2 md:block md:mr-0">
-								<a href="#" class="no-underline hover:underline text-orange-200 opacity-90 hover:opacity-100 text-sm">O Nama</a>
+								<a href="/onama" class="no-underline hover:underline text-orange-200 opacity-90 hover:opacity-100 text-sm">O Nama</a>
 							</li>
 							<li class="mt-2 inline-block mr-2 md:block md:mr-0">
 								<a href="/contact"  class="no-underline hover:underline text-orange-200 opacity-90 hover:opacity-100 text-sm">Kontakt</a>

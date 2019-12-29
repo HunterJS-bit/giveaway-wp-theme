@@ -2,7 +2,7 @@
 
 <?php get_header() ?>
 
-<article class="container mx-auto px-4 sm:px-5 mt-10">
+<section class="container mx-auto px-4 sm:px-5 mt-10">
     <h3 class="text-gray-800 text-xl sm:text-3xl md:text-5xl mt-1 text-left sm:text-center font-bold mx-6 sm:mx-0"> Uslovi koriscenja </h3>
     <div class="container md:w-2/3 mx-auto mb-10 mt-5">
         <p class="mt-2 text-gray-700 text-xs sm:text-sm md:text-normal"> 1.1. Korišćenje Vebsajta predstavlja prihvatanje uslova iz ovog Pravilnika. </p>
@@ -19,7 +19,7 @@
         <p class="mt-2 text-gray-700 text-xs sm:text-sm md:text-normal"> 2.0 Nagradne-igre.org zadržava pravo da ne objavi komentare kojima se povređuje privatnost nekog lica, uvredljive sadržaje kao i sadržaje koji su u suprotnosti sa Zakonom o javnom informisanju. </p>
         <p class="mt-2 text-gray-700 text-xs sm:text-sm md:text-normal"> 2.1 Ovaj Internet sajt koristite na sopstveni rizik. Urban Reads nije odgovoran za materijalnu ili nematerijalnu štetu, direktnu ili indirektnu koja nastane iz korišćenja ili je u nekoj vezi sa korišćenjem internet sajta ili njegovog Sadržaja. </p>
     </div>
-</article>
+</section>
 
 
 <?php get_footer() ?>

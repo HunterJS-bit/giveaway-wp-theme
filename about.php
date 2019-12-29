@@ -1,22 +1,27 @@
-<?php /* Template Name: Onama */ ?>
+<?php /* Template Name: O nama */ ?>
 
 <?php get_header() ?>
 
 
-<section class="container mx-auto px-6 p-10">
-    <div class="flex justify-center flex-wrap ">
-    <div class="w-2/5 flex-auto flex-wrap text-gray-700 text-center align-middle min-w-0 max-w-2xl">
-        <div class="pt-5 text-left">
-            <h2 style="font-size:48px; font-weight: bold">O Nama</h2>
-            <span class="dot"><hr style="height:2px;width: 200px;border-top:2px solid #eee; margin-left: 13px"></span>
-        </div>
-        <p class="font-sans text-gray-900 text-left font-semibold text-4xl">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-        <p class="font-sans m-auto text-gray-600 text-left text-xl my-6 font-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.</p>
-    </div>
-    <div class="w-3/5 flex-auto text-gray-400 text-center  px-4 py-2 m-2 align-middle min-w-0 max-w-2xl">
-        <img src="https://www.dropbox.com/s/nhbgc98r6gmuqi4/ipad%20air%202%20%28ROO%20DEC%2014%20EDIT%29.png?raw=1">
-    </div>
-    </div>
+<section class="container mx-auto px-4 sm:px-5 mt-10">
+<h3 class="text-gray-800 text-xl sm:text-3xl md:text-5xl mt-1 text-left sm:text-center font-bold mx-6 sm:mx-0">O Nama</h3>
+<article class="flex items-center content-center">
+ <div class="about-image h-full w-full max-w-2xl">
+    <img src="<?php bloginfo('template_url'); ?>/images/Team.svg" alt="NagradneIgre.org Tim" class="mx-auto">
+ </div>
+ <div class="mt-6 pb-10">
+ <h3 class="leading-snug font-base text-left text-3xl text-blue-900 lg:text-4xl">
+Nesto vise o  <span class="font-semibold text-blue-500">nagradne-igre.org</span> portalu ?
+</h3>
+<p class="text-grey-darkest text-xl font-lf-regular md:text-md mx-auto md:pr-8 mt-4 mb-4 leading-reading">
+Portal je nastao kao zelja par drugara da imaju jendo centralizovanu mesto gde mogu da prate sve nagradne igre i konkurse.
+</p>
+<p class="text-grey-darkest text-xl font-lf-regular md:text-md mx-auto md:pr-8 mt-4 mb-4 leading-reading">
+Ovaj sajt se ce truditi da na dnevnom nivou izbacuje i objavljuje clanke sa nagradnim igrama i konkursima, kao i da izadje u susret svima
+ koji imaju zelju da prate nagradne igre i konkurse sa Balkana i podele ih sa svima.
+</p>
+</div>
+</article>
 </section>
 
 
