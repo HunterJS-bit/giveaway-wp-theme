@@ -9,13 +9,16 @@
 
                 <div class="mt-10 px-6 sm:px-8 md:px-12 py-6 sm:py-8 bg-white border border-gray-200 sm:rounded-lg sm:shadow w-full md:w-2/3 mx-auto">
                     <h3 class="font-bold text-lg sm:text-xl md:text-2xl text-custom-purple">Da li nagradne-igre.org arganizuju nagradne igre i konkurse ?</h3>
-                    <p class="mt-2 text-gray-700 text-xs sm:text-sm md:text-normal">We will be building a learning platform SAAS application, but you can use these building blocks to create any type of SAAS application you can dream of.</p>
-                </div>                <div class="mt-10 px-6 sm:px-8 md:px-12 py-6 sm:py-8 bg-white border border-gray-200 sm:rounded-lg sm:shadow w-full md:w-2/3 mx-auto">
+                    <p class="mt-2 text-gray-700 text-xs sm:text-sm md:text-normal">Nagradne-igre.org ne organizuju nagradne igre i konkurse sem ako to nije posebno navedeno.
+                    Nagradne-igre.org samo prenosi nagradne igre i konkurse sa drugih izvora i okuplja na jednom mestu. Detaljne informacije o pravilima svake nagradne igre, možete saznati nas svakom postu klikom na link <b>"Link do objave"</b></p>
+                </div>                
+                <div class="mt-10 px-6 sm:px-8 md:px-12 py-6 sm:py-8 bg-white border border-gray-200 sm:rounded-lg sm:shadow w-full md:w-2/3 mx-auto">
                     <h3 class="font-bold text-lg sm:text-xl md:text-2xl text-custom-purple">Kako mogu da ucestvujem u nagradnoj igri ili konkursu ?</h3>
-                    <p class="mt-2 text-gray-700 text-xs sm:text-sm md:text-normal">There's no rush in completing the tasks when creating your SAAS application. The next video will be available whenever you're ready to move on.</p>
+                    <p class="mt-2 text-gray-700 text-xs sm:text-sm md:text-normal">Na svakom clanku postoji odlomak <b>Kako Ucestvovati</b> Ukoliko je taj deo izostavljen, Korisnik sajt moze pogledati 
+                    sve infomacije o nagradnoj igri klikom na link <b>"Link do objave"</b> na clanku </p>
                 </div>                <div class="mt-10 px-6 sm:px-8 md:px-12 py-6 sm:py-8 bg-white border border-gray-200 sm:rounded-lg sm:shadow w-full md:w-2/3 mx-auto">
                     <h3 class="font-bold text-lg sm:text-xl md:text-2xl text-custom-purple">Kako mogu saznati da li sam dobio nagradu ? </h3>
-                    <p class="mt-2 text-gray-700 text-xs sm:text-sm md:text-normal">Nope! If you have already completed your tasks for the day, you can jump to the next lesson whenever you're ready.</p>
+                    <p class="mt-2 text-gray-700 text-xs sm:text-sm md:text-normal">Nagradne-igre.org nece objavljivati dobitnike nagrada i baviti se objavljivaljen privatnih informacija korisnika. Za sve informacije o dobitnicima moracete konktaktirati originalog organizatora nagradne igre.</p>
                 </div>               
                  <div class="mt-10 px-6 sm:px-8 md:px-12 py-6 sm:py-8 bg-white border border-gray-200 sm:rounded-lg sm:shadow w-full md:w-2/3 mx-auto">
                     <h3 class="font-bold text-lg sm:text-xl md:text-2xl text-custom-purple">Imate jos dodatnih pitanja?</h3>
