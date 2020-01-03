@@ -7,6 +7,30 @@
 (function () {
     var container, button, menu, links, i, len;
 
+    // Animating card items on scroll
+    if (IntersectionObserver) {
+
+        const callback = function (entries) {
+            entries.forEach(entry => {
+                if (entry.isIntersecting &&
+                    !entry.target.classList.contains('animated')) {
+                    entry.target.classList.toggle('animated');
+                }
+            });
+        };
+
+        const observer = new IntersectionObserver(callback, {
+            root: null,
+            threshold: 0.3
+        });
+
+        let targets = document.querySelectorAll('.show-on-scroll');
+
+        targets.forEach(function (target) {
+            observer.observe(target);
+        });
+    }
+
     container = document.getElementById('main-menu');
     if (!container) {
         return;

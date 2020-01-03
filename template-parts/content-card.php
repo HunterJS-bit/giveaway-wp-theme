@@ -10,7 +10,7 @@
  */
 
 ?>
-<article id="post-<?php the_ID(); ?>" <?php post_class('md:mr-12 mb-10'); ?>>
+<article id="post-<?php the_ID(); ?>" <?php post_class('md:mr-12 mb-10 show-on-scroll'); ?>>
 
     <div class="max-w-xs flex rounded-lg overflow-hidden shadow-lg mx-auto">
         <a href="<?php the_permalink(); ?>">
