@@ -11,6 +11,9 @@ Text Domain: nagrada
 Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
 */
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 /* Text meant only for screen readers. */
 
@@ -89,9 +92,6 @@ h2.widget-title {
 
 /******* Comment *******/
 
-#comments {
-    @apply px-16
-}
 
 #commentform {
     @apply relative bg-white rounded-lg p-6 text-black shadow-lg mb-10 max-w-4xl
@@ -99,6 +99,10 @@ h2.widget-title {
 
 #commentform label {
     @apply block uppercase tracking-wide text-black text-xs font-bold pb-2
+}
+
+#commentform input#author {
+    @apply appearance-none bg-gray-100 block py-1 px-1 text-gray-800 border rounded-lg leading-tight
 }
 
 #commentform textarea {
@@ -386,7 +390,3 @@ html body {
 .header-button {
     animation-delay: 1.1s;
 }
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;

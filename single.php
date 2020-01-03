@@ -11,12 +11,12 @@ get_header();
 ?>
 
 	<div id="primary" class="content-area">
-		<main id="main" class="site-main container mx-auto px-6">
+		<main id="main" class="site-main">
 		<?php
 		while ( have_posts() ) :
 			the_post();
 			?>
-			<div class="wrapper">
+			<div class="wrapper container px-6 mx-auto">
 			<?php
 				get_template_part( 'template-parts/content', 'single');
 			?>
