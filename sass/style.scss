@@ -340,6 +340,26 @@ html body {
     transform:translateY(-2rem);
 }
 
+
+.show-on-scroll.animated:nth-child(2) {
+    opacity:1;
+}
+
+.show-on-scroll.animated:nth-child(3) {
+    transition-delay: 400ms;
+}
+
+.show-on-scroll.animated:nth-child(4) {
+    transition-delay: 600ms;
+}
+
+.show-on-scroll.animated:nth-child(5) {
+    transition-delay: 800ms;
+}
+
+.show-on-scroll.animated:nth-child(6) {
+    transition-delay: 1000ms;
+}
 /**** HEADER ANIMATION ***/
 
 .animate-pop-in {

@@ -1,4 +1,4 @@
-<article  id="post-<?php the_ID(); ?>" class="w-full md:w-1/4 md:mr-12 flex flex-col flex-grow flex-shrink mb-10 show-on-scroll">
+<article  id="post-<?php the_ID(); ?>" class="w-full md:w-1/4 md:mr-12 home-card flex flex-col flex-grow flex-shrink mb-5 mt-5 show-on-scroll">
 	<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow-lg">
 		<a href="<?php the_permalink(); ?>"  class="flex flex-wrap no-underline hover:no-underline">
 			<?php  $featured_img_url = get_the_post_thumbnail_url(get_the_ID(),'full');  ?>
