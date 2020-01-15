@@ -21,7 +21,7 @@
             
                 if ( $query->have_posts() ) : 
                 ?>
-                 <div class="posts flex flex-wrap content-between mt-4">
+                 <div class="posts flex flex-wrap content-between mt-10">
                   <?php while( $query->have_posts() ) : $query->the_post() ?>
                       <?php get_template_part( 'template-parts/content', 'card'); ?>
                     <!-- Display Post Here -->
