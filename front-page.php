@@ -3,9 +3,8 @@
 
 <!--Hero-->
 
-
-<div class="container  mx-auto px-2 pt-12 md:pt-8 flex flex-col">
-  <div class="md:flex relative flex-row-reverse items-center">
+<div class="main-content gradient">
+  <div class="md:flex relative flex-row-reverse items-center container mx-auto py-16">
       <div class="w-full md:w-1/2 h-full text-center">
           <div class="relative">
               <div>
@@ -20,10 +19,10 @@
       </div>
       <div class="left_block w-full md:w-1/2 text-center md:text-left py-2 md:py-16">
       <div class="md:w-full">
-        <h1 class="py-4 md:py-8 pb-8 text-grey-darkest text-4xl md:text-5xl font-bold animate-pop-in header-title">
+        <h1 class="py-4 md:py-8 pb-8 text-white text-4xl md:text-5xl font-bold animate-pop-in header-title">
          Učestvujte u nagradnim igrama i osvojite vredne nagrade</h1>
       </div> 
-          <h2 class="text-grey-darker text-base md:text-2xl mx-auto leading-normal md:pr-4 animate-pop-in header-subtitle">
+          <h2 class="text-gray-300 text-base md:text-2xl mx-auto leading-normal md:pr-4 animate-pop-in header-subtitle">
           Pratite sve nagradne igre i konkurse na jednom mestu
           </h2> 
           <a class="mx-auto rounded-lg mt-10 inline-block px-16 py-4 text-white text-lg bg-green-500 font-semibold shadow-xl cursor-pointer animate-pop-in header-button"
@@ -31,6 +30,8 @@
           Priključite se </a>
   </div>   
 </div>
+</div>
+<div class="container  mx-auto px-2 pt-12 md:pt-8 flex flex-col">
 <section class="mx-auto flex flex-col mt-10">
       <div id="primary" class="content-area container py-8 pt-12 lf-padding">
 		    <main id="main" class="site-main">

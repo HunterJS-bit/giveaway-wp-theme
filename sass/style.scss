@@ -340,9 +340,13 @@ html body {
     transform:translateY(-2rem);
 }
 
+.show-on-scroll.animated:nth-child(1) {
+    transition-delay: 100ms;
+}
 
 .show-on-scroll.animated:nth-child(2) {
     opacity:1;
+    transition-delay: 200ms;
 }
 
 .show-on-scroll.animated:nth-child(3) {

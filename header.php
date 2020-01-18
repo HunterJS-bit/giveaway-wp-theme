@@ -23,7 +23,7 @@
 <body <?php body_class(); ?>>
 <div id="page" class="site">
 
-	<header id="masthead" class="shadow">
+	<header id="masthead" class="w-full absolute z-10">
 		<div class="container mx-auto px-6 flex flex-wrap items-center justify-between md:flex-wrap p-4">
 			<a href="/">
 				<div class="flex items-center text-white mr-6" >
@@ -116,7 +116,7 @@ NjozNDo1Ny0wNzowMMfCRYgAAAAASUVORK5CYII=" />
 				</button>
 			</div>
 				
-			<div id="main-menu" class="w-full flex-grow sm:flex sm:items-center sm:w-auto hidden justify-end text-base">
+			<div id="main-menu" class="w-full flex-grow sm:flex sm:items-center sm:w-auto hidden justify-end text-base text-white font-bold">
 					<?php
 					wp_nav_menu( array(
 						'theme_location' => 'menu-1',
@@ -125,7 +125,7 @@ NjozNDo1Ny0wNzowMMfCRYgAAAAASUVORK5CYII=" />
 						'add_li_class'  => 'menu-item no-underline block mr-8 sm:inline-block sm:mt-0 tracking-widest text-base uppercase'
 					) );
 					?>
-					<a href="/blog" class="bg-blue-500 py-2 px-5 rounded tracking-widest text-white text-base uppercase">Prijavi se</a>
+					<a href="/blog" class="bg-blue-500 py-2 px-5 rounded tracking-widest text-white font-bold uppercase">Prijavi se</a>
 		
 			</div>
 		</div>
