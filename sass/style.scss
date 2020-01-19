@@ -323,6 +323,14 @@ html body {
     border-bottom: 1px solid #eaecef;
 }
 
+
+.home.page-template header#masthead {
+    background: none;
+    @apply absolute z-10 
+}
+
+
+
 .about-pages .content-container p {
     @apply mb-2
 }

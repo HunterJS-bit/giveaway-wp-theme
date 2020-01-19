@@ -22,8 +22,7 @@
 
 <body <?php body_class(); ?>>
 <div id="page" class="site">
-
-	<header id="masthead" class="w-full absolute z-10">
+<header id="masthead" class="w-full gradient">
 		<div class="container mx-auto px-6 flex flex-wrap items-center justify-between md:flex-wrap p-4">
 			<a href="/">
 				<div class="flex items-center text-white mr-6" >
