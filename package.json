@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "style": "gulp style"
+    "style": "gulp style",
+    "purge-css": "gulp purge"
   },
   "author": "",
   "license": "ISC",
@@ -16,6 +17,8 @@
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-postcss": "^8.0.0",
-    "gulp-sass": "^4.0.2"
+    "gulp-sass": "^4.0.2",
+    "purgecss": "^2.0.3",
+    "purgecss-with-wordpress": "^1.1.0"
   }
 }
