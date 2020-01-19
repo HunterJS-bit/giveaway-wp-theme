@@ -37,6 +37,7 @@ get_header();
                     <!-- Display Post Here -->
                   <?php endwhile ?>
                   </div>
+                  <div class="pagination text-center pt-16">
                   <?php 
                        $big = 999999999; // need an unlikely integer
                      
@@ -49,6 +50,7 @@ get_header();
                            'next_text' => __('Sledeca &#8594;'),
                        ));
                   ?>
+                  </div>
                 <?php else : ?>
                   <!-- Content If No Posts -->
               <?php endif ?>
