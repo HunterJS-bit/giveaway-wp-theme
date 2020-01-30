@@ -77,21 +77,21 @@
       <div class="md:flex justify-around text-center">
         <div class="w-full max-w-xs px-10 mb-10 ">
             <div class="mx-auto text-center">
-              <img src="<?php bloginfo('template_url'); ?>/images/nagradne-igre.org_osvoji.svg" alt="Nagrada Osvoji" class="mx-auto">
+              <img src="<?php bloginfo('template_url'); ?>/images/pobednik.svg" alt="Nagrada Osvoji" class="mx-auto">
             </div>
             <h3 class="text-3xl text-gray-800 font-bold mb-3">Vidi i osvoji</h3>
             <p class="text-center">Otkrijte široku ponudu nagradnih igara, konkursa i online nagradnih igara</p>
         </div>
         <div class="w-full max-w-xs px-10 mb-10">
             <div class="mx-auto text-center">
-              <img src="<?php bloginfo('template_url'); ?>/images/nagradne-igre.org_prati.svg" alt="Nagrada PC" class="mx-auto">
+              <img src="<?php bloginfo('template_url'); ?>/images/pobedi.svg" alt="Nagrada PC" class="mx-auto">
             </div>
             <h3 class="text-3xl text-gray-800 font-bold mb-3">Prati objave</h3>
             <p class="text-center">Objavljujemo i delimo svakog dana nagradne igre sa celog Balkana sa vama</p>
         </div>
         <div class="w-full max-w-xs px-10 mb-10">
           <div class="mx-auto text-center">
-            <img src="<?php bloginfo('template_url'); ?>/images/nagradne-igre.org_budi_pobednik.svg" alt="Nagrada Budi Pobednik" class="mx-auto css-v7v99c">
+            <img src="<?php bloginfo('template_url'); ?>/images/osvoji.svg" alt="Nagrada Budi Pobednik" class="mx-auto css-v7v99c">
           </div>
           <h3 class="text-3xl text-gray-800 font-bold mb-3">Budi dobitnik</h3>
           <p class="text-center">Budite i vi danas jedan od srećnih dobitnika i osvojite ključeve novog auta, vaučere i druge nagrade</p>

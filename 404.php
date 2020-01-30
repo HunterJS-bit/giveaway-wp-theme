@@ -14,16 +14,13 @@ get_header();
 		<main id="main" class="site-main">
 
 			<section class="error-404 not-found">
-				<div class="md:flex h-screen">
-					<div class="w-full flex items-center justify-center ">
-						<div class="max-w-sm m-8">
-						<div class="text-black text-5xl md:text-15xl font-black">Error 404</div>
-						<div class="w-16 h-1 bg-purple-light my-3 md:my-6"></div>
-						<p class="text-grey-darker text-2xl md:text-3xl font-light mb-8 leading-normal">Nažalost, nismo našli stranicu koju ste tražili :(</p>
-						<a class="bg-transparent text-grey-darkest font-bold uppercase tracking-wide py-3 px-6 border-2 border-grey-light hover:border-grey rounded-lg mt-8" href="./">Go Home</a>
-						</div>
+					<div class="flex flex-col items-center text-grey-darker justify-center h-screen animated-gradient text-white">
+					
+						<h1 class="text-xl md:text-3xl lg:text-6xl xl:text-6xl font-light leading-none mb-2 font-bold text-gray-700">404</h1>
+						<h2 class="text-gray-600">Nažalost, nismo našli stranicu koju ste tražili</h1>
+						<hr class="block w-1/2  lg:w-full max-w-sm mx-auto border my-8">
+						<p class="text-xl"><a href="/" class="hover:underline text-gray-700">Vratite se nazad</a></p>
 					</div>
-				</div>
 			</section><!-- .error-404 -->
 
 		</main><!-- #main -->
